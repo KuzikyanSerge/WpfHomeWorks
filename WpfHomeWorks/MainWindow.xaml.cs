@@ -20,7 +20,7 @@ namespace WpfHomeWorksTask1_1
         {
             InitializeComponent();
         }
-        private double _result = 0;
+        private int _result = 0;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             _result += 1;
