@@ -9,11 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="img\Автор.JPG" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="img\Автор.JPG">
+    <Content Include="img\Autor.JPG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
