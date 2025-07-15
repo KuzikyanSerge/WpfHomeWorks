@@ -46,10 +46,8 @@ namespace WpfHomeWorksTask4
             button.Content = (newValue% 2 == 0)
                 ? "OFF"
                 : "ON";
-            if (newValue % 2 == 0)
-            {
-                button.Background = new SolidColorBrush(colorRed);
-            }
+            if (newValue % 2 == 0)            
+                button.Background = new SolidColorBrush(colorRed);            
             else button.Background = new SolidColorBrush(colorGreen);
         }
         public CounterButton()
