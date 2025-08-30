@@ -12,6 +12,7 @@
     
     <StackPanel>
         <TextBox x:Name="textVvod"
+                 Text="Введите текст здесь"
                  Margin="10"/>
         <CheckBox x:Name="chkBox"
                   Margin="10"
