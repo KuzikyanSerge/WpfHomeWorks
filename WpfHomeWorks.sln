@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHomeWorksTask4", "WpfHom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHomeWorksTask5", "WpfHomeWorksTask5\WpfHomeWorksTask5.csproj", "{4358C0D1-837D-4295-927D-95D8F4E9F795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHomeWorks6", "WpfHomeWorks6\WpfHomeWorks6.csproj", "{FEDEE4E0-39F4-4491-BA5E-A9F8A146E8B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4358C0D1-837D-4295-927D-95D8F4E9F795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4358C0D1-837D-4295-927D-95D8F4E9F795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4358C0D1-837D-4295-927D-95D8F4E9F795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDEE4E0-39F4-4491-BA5E-A9F8A146E8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDEE4E0-39F4-4491-BA5E-A9F8A146E8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDEE4E0-39F4-4491-BA5E-A9F8A146E8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDEE4E0-39F4-4491-BA5E-A9F8A146E8B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
