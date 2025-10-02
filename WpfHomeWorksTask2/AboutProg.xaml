@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfHomeWorksTask2.AboutProg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHomeWorksTask2"
+        mc:Ignorable="d"
+        Title="О программе" Height="300" Width="300" MinWidth="300" MinHeight="300" MaxWidth="300" MaxHeight="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label
+            Content="Простой текстовый редактор" 
+            FontSize="16"
+            FontWeight="Bold" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" 
+            />
+        <Image
+            Source="img/Autor.JPG"
+            Grid.Row="1"
+            Height="150"/>
+        <Label 
+            Grid.Row="2"
+            Content="Автор: Кузикян Сергей Гарикович" 
+            HorizontalAlignment="Left" VerticalAlignment="Bottom" 
+            Margin="50,0"
+            Padding="5"/>
+        <Label 
+            Grid.Row="3"
+            Content="Версия: 1.0" 
+            HorizontalAlignment="Left" VerticalAlignment="Bottom" 
+            Margin="50,0"
+            Padding="5"/>
+        <Label 
+            Grid.Row="4"
+            Content="Дата создания: 29.06.2025" 
+            HorizontalAlignment="Left" VerticalAlignment="Bottom" 
+            Margin="50, 0, 0, 10"
+            Padding="5"/>
+    </Grid>
+</Window>

@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfHomeWorksTask1_1
+namespace WpfHomeWorks6
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,13 +19,6 @@ namespace WpfHomeWorksTask1_1
         public MainWindow()
         {
             InitializeComponent();
-        }
-        private int _result = 0;
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            _result += 1;
-
-            ResultText.Text = $"{_result}";
         }
     }
 }

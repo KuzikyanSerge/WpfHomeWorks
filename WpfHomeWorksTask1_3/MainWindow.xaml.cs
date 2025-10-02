@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfHomeWorksTask1_1
+namespace WpfHomeWorksTask1_3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -20,12 +20,14 @@ namespace WpfHomeWorksTask1_1
         {
             InitializeComponent();
         }
-        private int _result = 0;
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            _result += 1;
 
-            ResultText.Text = $"{_result}";
+        
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Random rnd = new Random();
+            int x = rnd.Next(0, (int)MainGrid.ActualWidth - (int)Button.Width);
+            int y = rnd.Next(0, (int)MainGrid.ActualHeight - (int)Button.Height);
+            Button.Margin = new Thickness(x, y, 0, 0);
         }
     }
 }
